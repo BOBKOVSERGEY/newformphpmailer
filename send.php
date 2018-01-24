@@ -1,7 +1,9 @@
 <?php
+$headers = "Content-type: text/html; Charset=utf-8";
 
-if (mail('sergey_bobkov@inbox.ru', 'Тема письма', 'Текст сообщения')) {
-  echo "Сообщение отправлено";
+
+if (mail('sergey_bobkov@inbox.ru', 'Тема письма', 'Текст сообщения', $headers)) {
+  echo "Сообщение успешно отправлено";
 } else {
-  echo "Сообщение не отправлено";
+  echo "Ощибка, сообщение не отправлено";
 }
