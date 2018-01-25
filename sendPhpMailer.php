@@ -8,8 +8,8 @@ $mail->isSMTP();
 
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = "test@gmail.com";
-$mail->Password = "Test";
+$mail->Username = "bobkovsergeyarkadevich@gmail.com";
+$mail->Password = "1987kira1954";
 $mail->SMTPSecure = 'ssl';
 $mail->Port = '465';
 // от кого отправляем
